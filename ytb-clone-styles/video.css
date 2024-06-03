@@ -1,0 +1,165 @@
+.thumbnail{
+	width: 100%;
+}
+
+.video-link{
+	text-decoration: none;
+	color: black;
+	font-family: roboto, arial;
+}
+
+.video-title{
+	margin-top: 0;
+	font-size: 0.8rem;
+	font-weight: 500;
+	/* line-height: 20px; */
+	margin-bottom: 10px;
+}
+
+.video-info-grid{
+	display: grid;
+	grid-template-columns: 50px 1fr;
+}
+
+.profile-picture{
+	width: 36px;
+	border-radius: 50px;
+}
+
+
+.thumbnail-row{
+	margin-bottom: 8px;
+	position: relative;
+}
+
+.channel-picture{
+	position: relative;
+}
+
+.channel-picture > .tooltip{
+	display: flex;
+	position: absolute;
+	bottom: -35px;
+	left: 0;
+	background-color: #fff;
+	padding: 6px;
+	padding-right: 50px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+	gap: 10px;
+	opacity: 0;
+	pointer-events: none;
+}
+
+.channel-picture:hover > .tooltip{
+	opacity: 1;
+}
+
+.channel-pic{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.channel-name{
+	white-space: nowrap;
+	margin-bottom: 5px;
+}
+
+.profile-pic{
+	width: 50px;
+	border-radius: 50px;
+}
+
+.video-author, .video-stats, .channel-subs{
+	font-size: 12px;
+	color: rgb(96,96,96);
+	white-space: nowrap;
+}
+
+.channel-name{
+	font-size: 1rem;
+	font-weight: 500;
+	/* line-height: 20px; */
+}
+
+.video-author{
+	margin-bottom: 4px;
+}
+
+.video-grid{
+	display: grid;
+	/* grid-template-columns: 1fr 1fr 1fr; */
+	gap: 40px 16px;
+}
+
+/* @media (max-width: 1000px){
+	.video-grid{
+		grid-template-columns: 1fr;
+	}
+} */
+
+/* @media (min-width: 300px) and (max-width: 599){
+	.video-grid{
+		grid-template-columns: 1fr;
+	}
+}
+
+@media (min-width: 600px) and (max-width: 999px){
+	.video-grid{
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media (min-width: 1000px){
+	.video-grid{
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
+} */
+
+
+
+/* @media (min-width: 400px) and (max-width: 750px){
+	.video-grid{
+		grid-template-columns: 1fr 1fr;
+	}
+} */
+
+@media (min-width: 300px) and (max-width: 599px) {
+    .video-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 749px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 750px) and (max-width: 999px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1000px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+
+.video-length{
+	background-color: black;
+	color: white;
+	padding: 4px;
+	border-radius: 2px;
+	font-size: 12px;
+	font-family: roboto, arial;
+	font-weight: 500;
+	position: absolute;
+	bottom: 8px;
+	right: 8px;
+}
