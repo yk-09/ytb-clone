@@ -32,17 +32,19 @@
 }
 
 @media (min-width: 750px) and (max-width: 999px) {
+    
     .sidebar {
         width: 100px;
     }
 
     .sidebar-link > img{
-    height: 50px;
-    margin-top: 50px;
+        height: 50px;
+        margin-top: 50px;
     }
 
     .sidebar-link > p{
-    font-size: 30px;
-    margin: 18px 0px; 
+        font-size: 30px;
+        margin: 18px 0px; 
     }
+    
 }
